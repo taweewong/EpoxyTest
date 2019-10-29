@@ -25,10 +25,4 @@ class MainActivity : AppCompatActivity() {
         }
         userController.requestModelBuild()
     }
-
-    @SuppressLint("SetTextI18n")
-    private fun testDate() {
-        val date = LocalDate.parse("31-02-2020", DateTimeFormatter.ofPattern("dd-MM-yyyy"))
-        testText.text = "${date.dayOfMonth} / ${date.month} / ${date.year}"
-    }
 }
