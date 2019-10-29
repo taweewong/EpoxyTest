@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/trans_light_black</color>
+    <color name="colorPrimaryDark">@color/trans_black</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="trans_white">#68FFFFFF</color>
+    <color name="trans_black">#54000000</color>
+    <color name="trans_light_black">#34000000</color>
+</resources>
